@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<test name="Login">
+	<classes> 
+		<class name="Tates.LoginPage_TC1" />
+	</classes>
+</test>
+<test name="interview">
+	<classes> 
+		<class name="Tates.Interview_TC" />
+	</classes>
+</test>
+<!-- <test name="Register"> -->
+<!-- 	<classes>  -->
+<!-- 		<class name="Tates.RegisterPageTC2" /> -->
+<!-- 	</classes> -->
+<!-- </test> -->
+
+<test name="Product Detail Page">
+	<classes> 
+		<class name="Tates.PDPPage_TC3" />
+	</classes>
+</test>
+
+
+
+<test name="Add To Cart">
+	<classes> 
+		<class name="Tates.Addtocart_TC4" />
+	</classes>
+</test>
+
+
+<test name="Checkout">
+	<classes> 
+		<class name="Tates.Checkout_TC" />
+	</classes>
+</test>
+
+
+<test name="Dynamic Basket">
+	<classes> 
+		<class name="Tates.DynamicBasketPage_TC5" />
+	</classes>
+</test>
+
+ <listeners>
+		<listener class-name="com.tates.customreporting.CustomTestNGReporter" />
+	</listeners>  
+
+  
+  
+  
+</suite> <!-- Suite -->
